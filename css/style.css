@@ -55,6 +55,15 @@ img {
   border-radius: 10px;
 }
 
+.column {
+  border-top: 10px solid deepskyblue;
+  max-width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
 ul,
 ol {
   margin: 30px 0;
@@ -88,9 +97,10 @@ a:active {
 .main-header {
   padding-top: 170px;
   height: 850px;
-  background: linear-gradient(skyblue, transparent 90%),
+
+  background: linear-gradient(#0068af, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
-             skyblue url('../img/grad.jpg') no-repeat center;
+             #2D3640 url('../img/grad.jpg') no-repeat center;
   background-size: cover;
 }
 
